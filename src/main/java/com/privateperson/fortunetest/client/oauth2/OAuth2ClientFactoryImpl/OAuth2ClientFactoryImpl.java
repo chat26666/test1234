@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Component;
 
-import com.privateperson.fortunetest.client.oauth2.OAuth2Client;
-import com.privateperson.fortunetest.client.oauth2.OAuth2ClientFactory;
-import com.privateperson.fortunetest.common.type.OAuth2Provider;
+import com.privateperson.fortunetest.application.auth.port.OAuth2Client;
+import com.privateperson.fortunetest.application.auth.port.OAuth2ClientFactory;
+import com.privateperson.fortunetest.domain.user.model.OAuth2Provider;
 
 @Component
 public class OAuth2ClientFactoryImpl implements OAuth2ClientFactory {

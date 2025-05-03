@@ -1,7 +1,5 @@
 package com.privateperson.fortunetest.domain.user.model;
 
-import com.privateperson.fortunetest.common.type.OAuth2Provider;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

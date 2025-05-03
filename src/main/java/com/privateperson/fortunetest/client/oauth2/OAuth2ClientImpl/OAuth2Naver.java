@@ -3,9 +3,9 @@ package com.privateperson.fortunetest.client.oauth2.OAuth2ClientImpl;
 import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.privateperson.fortunetest.client.oauth2.OAuth2Client;
-import com.privateperson.fortunetest.client.oauth2.OAuth2UserInfo;
-import com.privateperson.fortunetest.common.type.OAuth2Provider;
+import com.privateperson.fortunetest.application.auth.port.OAuth2Client;
+import com.privateperson.fortunetest.application.auth.port.OAuth2UserInfo;
+import com.privateperson.fortunetest.domain.user.model.OAuth2Provider;
 
 @Component
 public class OAuth2Naver implements OAuth2Client {

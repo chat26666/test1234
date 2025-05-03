@@ -4,11 +4,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.privateperson.fortunetest.application.auth.dto.response.TokenResponse;
-import com.privateperson.fortunetest.client.oauth2.OAuth2Client;
-import com.privateperson.fortunetest.client.oauth2.OAuth2ClientFactory;
-import com.privateperson.fortunetest.client.oauth2.OAuth2UserInfo;
+import com.privateperson.fortunetest.application.auth.port.OAuth2Client;
+import com.privateperson.fortunetest.application.auth.port.OAuth2ClientFactory;
+import com.privateperson.fortunetest.application.auth.port.OAuth2UserInfo;
 import com.privateperson.fortunetest.infrastructure.security.jwt.core.JwtService;
-import com.privateperson.fortunetest.common.type.OAuth2Provider;
+import com.privateperson.fortunetest.domain.user.model.OAuth2Provider;
 import com.privateperson.fortunetest.domain.user.model.User;
 import com.privateperson.fortunetest.domain.user.repository.UserRepository;
 import com.privateperson.fortunetest.domain.user.service.UserDomainService;

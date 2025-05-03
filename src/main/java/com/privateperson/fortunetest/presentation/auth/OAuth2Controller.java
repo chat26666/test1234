@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.privateperson.fortunetest.application.auth.dto.response.TokenResponse;
 import com.privateperson.fortunetest.application.auth.service.OAuth2Service;
-import com.privateperson.fortunetest.common.type.OAuth2Provider;
+import com.privateperson.fortunetest.domain.user.model.OAuth2Provider;
 
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

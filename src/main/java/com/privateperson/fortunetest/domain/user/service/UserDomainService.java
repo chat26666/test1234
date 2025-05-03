@@ -4,7 +4,7 @@ import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 
-import com.privateperson.fortunetest.common.type.OAuth2Provider;
+import com.privateperson.fortunetest.domain.user.model.OAuth2Provider;
 import com.privateperson.fortunetest.domain.user.model.User;
 import com.privateperson.fortunetest.domain.user.repository.UserRepository;
 

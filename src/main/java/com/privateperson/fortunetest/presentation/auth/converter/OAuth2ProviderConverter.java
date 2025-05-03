@@ -3,7 +3,7 @@ package com.privateperson.fortunetest.presentation.auth.converter;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
-import com.privateperson.fortunetest.common.type.OAuth2Provider;
+import com.privateperson.fortunetest.domain.user.model.OAuth2Provider;
 
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
