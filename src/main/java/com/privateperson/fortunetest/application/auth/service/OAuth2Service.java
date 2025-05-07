@@ -7,7 +7,7 @@ import com.privateperson.fortunetest.application.auth.dto.response.TokenResponse
 import com.privateperson.fortunetest.application.auth.port.OAuth2Client;
 import com.privateperson.fortunetest.application.auth.port.OAuth2ClientFactory;
 import com.privateperson.fortunetest.application.auth.port.OAuth2UserInfo;
-import com.privateperson.fortunetest.infrastructure.security.jwt.core.JwtService;
+import com.privateperson.fortunetest.infrastructure.security.jwt.core.JwtServiceImpl;
 import com.privateperson.fortunetest.domain.user.model.OAuth2Provider;
 import com.privateperson.fortunetest.domain.user.model.User;
 import com.privateperson.fortunetest.domain.user.repository.UserRepository;
@@ -22,7 +22,7 @@ public class OAuth2Service {
 	private final UserDomainService userDomainService;
 	private final OAuth2ClientFactory oAuth2ClientFactory;
 	private final UserRepository userRepository;
-	private final JwtService jwtService;
+	private final JwtServiceImpl jwtService;
 
 	public String getRedirectUrl(OAuth2Provider provider) {
 		OAuth2Client client = oAuth2ClientFactory.getOAuth2Client(provider);
